@@ -28,6 +28,21 @@ body {
   transform: scale(1.1);
 }
 
+#result-form {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: #150d2e;
+  border-radius: 15px;
+  height: 200px;
+  min-width: 400px;
+  transition: all 0.25s;
+}
+
+#result-form:hover {
+  transform: scale(1.1);
+}
+
 #start-button {
   background-color: #a497cc;
   font-size: 25px;
@@ -44,9 +59,14 @@ body {
 #return-button {
   background-color: #a497cc;
   font-size: 25px;
-  margin: 0px;
+  margin: 5px;
   border-radius: 3px;
   width: 250px;
+  transition: all 0.5s;
+}
+
+#return-button:hover {
+  transform: scale(1.1);
 }
 
 #qizz-form {
@@ -66,7 +86,7 @@ body {
 .answer-button {
   background-color: #a497cc;
   height: 50px;
-  width: 50px;
+  min-width: 50px;
   border-radius: 5px;
   border: 3px solid #0a0033;
   margin: 3px;
