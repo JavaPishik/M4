@@ -11,9 +11,11 @@
     <div id="start-form">
       <h2 class="text">Предыдущий результат: Нет</h2>
       <h2 class="text">Лучший результат: Нет</h2>
-      <button id="start-button">Начать</button>
+      <button class="button" id="start-button" onclick="startProgram()">
+        Начать
+      </button>
     </div>
-    <div id="qizz-form">
+    <div id="qizz-form" class="none">
       <h1>Пример: 4 + 4</h1>
       <nav>
         <button class="answer-button">2</button>
@@ -23,12 +25,12 @@
       </nav>
       <h1>Решено 0 из 4</h1>
     </div>
-    <div id="result-form">
+    <div id="result-form" class="none">
       <h3>Конец</h3>
       <h4>Результат: 0</h4>
       <h4>Лучший результат: 0</h4>
-      <button id="return-button">Вернуться</button>
+      <button class="button">Вернуться</button>
     </div>
-    <script src="script.js"></script>
   </body>
+  <script src="main.js"></script>
 </html>

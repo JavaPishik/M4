@@ -13,13 +13,26 @@ body {
   color: #e0dded;
 }
 
+.button {
+  background-color: #a497cc;
+  font-size: 25px;
+  margin: 5px;
+  border-radius: 3px;
+  width: 250px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
 #start-form {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   background-color: #150d2e;
   border-radius: 15px;
-  height: 200px;
+  height: 225px;
   width: 400px;
   transition: all 0.25s;
 }
@@ -43,34 +56,7 @@ body {
   transform: scale(1.1);
 }
 
-#start-button {
-  background-color: #a497cc;
-  font-size: 25px;
-  margin: 5px;
-  border-radius: 3px;
-  width: 250px;
-  transition: all 0.5s;
-}
-
-#start-button:hover {
-  transform: scale(1.1);
-}
-
-#return-button {
-  background-color: #a497cc;
-  font-size: 25px;
-  margin: 5px;
-  border-radius: 3px;
-  width: 250px;
-  transition: all 0.5s;
-}
-
-#return-button:hover {
-  transform: scale(1.1);
-}
-
 #qizz-form {
-  display: none;
   background-color: #150d2e;
   padding: 30px;
   border-radius: 15px;
@@ -98,11 +84,14 @@ body {
 }
 
 #result-form {
-  display: none;
   flex-flow: column nowrap;
   align-items: center;
   background-color: #150d2e;
   border-radius: 5px;
   height: 200px;
   width: 400px;
+}
+
+.none {
+  display: none !important;
 }
