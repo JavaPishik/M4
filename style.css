@@ -41,6 +41,8 @@ body {
   transform: scale(1.1);
 }
 
+/* абсолютно всё */
+
 #result-form {
   display: flex;
   flex-flow: column nowrap;
